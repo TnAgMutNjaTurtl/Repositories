@@ -5,9 +5,18 @@ using namespace std;
 
 int main(int argc, char*argv[])
 {
+    // from here
+    if (argc <= 1)
+    {
+        cout << "Please give me something to work with!!!!" << endl;
+        return -1;
+    }
+    // to here is how to return something when you dont pass anything from the command line
+    
     int value = 0;
     char letter = argv[1][0];// pre attemptchar letter(1);
 
+    
     if (strlen(argv[1]) > 1)
     {
         letter = ':';
