@@ -1,12 +1,18 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
-int main()
+
+
+int main(int argc, char*argv[])
 {
     int value = 0;
-    char letter(1);
-    cout << "Enter one letter to see the ascii art and letter value \n"
-    << "Enter a word, number or spec character to end program:  ";
-    cin >> letter;
+    char letter = argv[1][0];// pre attemptchar letter(1);
+
+    if (strlen(argv[1]) > 1)
+    {
+        letter = ':';
+    }
+
     switch (letter)
     {
         case 'A':
@@ -18,8 +24,8 @@ int main()
             cout << "/**//////** \n";
             cout << "/**     /** \n";
             cout << "//      // \n";
-            value = (value + 1);
-            break;
+            return 1; //{value = return 1;} = {bad because variable can != return} // (value + 1); 
+            //break; not needed because using return in the case so program wouldnt even get to the break because it would have already returned
         case 'B':
             cout << "  ****** \n";
             cout << " /*////** \n";
@@ -305,6 +311,5 @@ int main()
             cout << "  //*******    ********  //*******  \n";
             cout << "   ///////    ////////    ///////   \n";
     }
-    cout << "End of program. \n";
     return value;
 }
