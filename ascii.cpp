@@ -44,8 +44,8 @@ int main(int argc, char*argv[])
             cout << " /*    /** \n";
             cout << " /******* \n";
             cout << " /////// \n";
-            value = (value + 2);
-            break;
+            return 2;
+            
         case 'C':
             cout << "   ******  \n";
             cout << "  **////** \n";
@@ -55,8 +55,8 @@ int main(int argc, char*argv[])
             cout << "//**    ** \n";
             cout << " //******  \n";
             cout << "  //////   \n";
-            value = (value + 2);
-            break;
+            return 3;
+            
         case 'D':
             cout << "  *******      \n";
             cout << " /**////**     \n";
@@ -66,8 +66,8 @@ int main(int argc, char*argv[])
             cout << " /**    **     \n";
             cout << " /*******      \n";
             cout << " ///////       \n";
-            value = (value + 2);
-            break;
+            return 4;
+            
         case 'E':
             cout << "  ********     \n";
             cout << " /**/////      \n";
@@ -77,8 +77,8 @@ int main(int argc, char*argv[])
             cout << " /**           \n";
             cout << " /********     \n";
             cout << " ////////      \n";
-            value = (value + 2);
-            break;
+            return 5;
+            
         case 'F':
             cout << "  ********     \n";
             cout << " /**/////      \n";
@@ -88,8 +88,8 @@ int main(int argc, char*argv[])
             cout << " /**           \n";
             cout << " /**           \n";
             cout << " //            \n";
-            value = (value + 2);
-            break;
+            return 6;
+            
         case 'G':
             cout << "    ********   \n";
             cout << "   **//////**  \n";
@@ -99,8 +99,8 @@ int main(int argc, char*argv[])
             cout << " //**  ////**  \n";
             cout << "  //********   \n";
             cout << "   ////////    \n";
-            value = (value + 2);
-            break;
+            return 7;
+            
         case 'H':
             cout << "  **      **   \n";
             cout << " /**     /**   \n";
@@ -110,8 +110,8 @@ int main(int argc, char*argv[])
             cout << " /**     /**   \n";
             cout << " /**     /**   \n";
             cout << " //      //    \n";
-            value = (value + 2);
-            break;
+            return 8;
+            
         case 'I':
             cout << "  **           \n";
             cout << " /**           \n";
@@ -121,8 +121,8 @@ int main(int argc, char*argv[])
             cout << " /**           \n";
             cout << " /**           \n";
             cout << " //            \n";
-            value = (value + 2);
-            break;
+            return 9;
+            
         case 'J':
             cout << "       **      \n";
             cout << "      /**      \n";
@@ -132,8 +132,8 @@ int main(int argc, char*argv[])
             cout << "  **  /**      \n";
             cout << " //*****       \n";
             cout << "  /////        \n";
-            value = (value + 2);
-            break;
+            return 10;
+            
         case 'K':
             cout << "  **   **      \n";
             cout << " /**  **       \n";
@@ -143,8 +143,8 @@ int main(int argc, char*argv[])
             cout << " /**//**       \n";
             cout << " /** //**      \n";
             cout << " //   //       \n";
-            value = (value + 2);
-            break;
+            return 11;
+            
         case 'L':
             cout << "  **           \n";
             cout << " /**           \n";
@@ -154,8 +154,8 @@ int main(int argc, char*argv[])
             cout << " /**           \n";
             cout << " /********     \n";
             cout << " ////////      \n";
-            value = (value + 2);
-            break;
+            return 12;
+            
         case 'M':
             cout << "  ****     ****\n";
             cout << " /**/**   **/**\n";
@@ -165,8 +165,8 @@ int main(int argc, char*argv[])
             cout << " /**   /    /**\n";
             cout << " /**        /**\n";
             cout << " //         // \n";
-            value = (value + 2);
-            break;
+            return 13;
+            
         case 'N':
             cout << "  ****     **  \n";
             cout << " /**/**   /**  \n";
@@ -176,8 +176,8 @@ int main(int argc, char*argv[])
             cout << " /**   //****  \n";
             cout << " /**    //***  \n";
             cout << " //      ///   \n";
-            value = (value + 2);
-            break;
+            return 14;
+            
         case 'O':
             cout << "    *******    \n";
             cout << "   **/////**   \n";
@@ -187,8 +187,8 @@ int main(int argc, char*argv[])
             cout << " //**     **   \n";
             cout << "  //*******    \n";
             cout << "   ///////     \n";
-            value = (value + 2);
-            break;
+            return 15;
+            
         case 'P':
             cout << "  *******      \n";
             cout << " /**////**     \n";
@@ -198,8 +198,8 @@ int main(int argc, char*argv[])
             cout << " /**           \n";
             cout << " /**           \n";
             cout << " //            \n";
-            value = (value + 2);
-            break;
+            return 16;
+            
         case 'Q':
             cout << "    *******    \n";
             cout << "   **/////**   \n";
@@ -209,8 +209,8 @@ int main(int argc, char*argv[])
             cout << " //**  // **   \n";
             cout << "  //******* ** \n";
             cout << "   /////// //  \n";
-            value = (value + 2);
-            break;
+            return 17;
+            
         case 'R':
             cout << "  *******      \n";
             cout << " /**////**     \n";
@@ -220,8 +220,8 @@ int main(int argc, char*argv[])
             cout << " /**  //**     \n";
             cout << " /**   //**    \n";
             cout << " //     //     \n";
-            value = (value + 2);
-            break;
+            return 18;
+            
         case 'S':
             cout << "   ********    \n";
             cout << "  **//////     \n";
@@ -231,8 +231,8 @@ int main(int argc, char*argv[])
             cout << "        /**    \n";
             cout << "  ********     \n";
             cout << " ////////      \n";
-            value = (value + 2);
-            break;
+            return 19;
+            
         case 'T':
             cout << "  **********   \n";
             cout << " /////**///    \n";
@@ -242,8 +242,8 @@ int main(int argc, char*argv[])
             cout << "     /**       \n";
             cout << "     /**       \n";
             cout << "     //        \n";
-            value = (value + 2);
-            break;
+            return 20;
+            
         case 'U':
             cout << "  **     **    \n";
             cout << " /**    /**    \n";
@@ -253,8 +253,8 @@ int main(int argc, char*argv[])
             cout << " /**    /**    \n";
             cout << " //*******     \n";
             cout << "  ///////      \n";
-            value = (value + 21);
-            break;
+            return 21;
+            
         case 'V':
             cout << "  **      **   \n";
             cout << " /**     /**   \n";
@@ -264,8 +264,8 @@ int main(int argc, char*argv[])
             cout << "   //****      \n";
             cout << "    //**       \n";
             cout << "     //        \n";
-            value = (value + 22);
-            break;
+            return 22;
+            
         case 'W':
             cout << "  **       **  \n";
             cout << " /**      /**  \n";
@@ -275,8 +275,8 @@ int main(int argc, char*argv[])
             cout << " /**** //****  \n";
             cout << " /**/   ///**  \n";
             cout << " //       //   \n";
-            value = (value + 23);
-            break;
+            return 23;
+            
         case 'X':
             cout << "  **     **    \n";
             cout << " //**   **     \n";
@@ -286,8 +286,8 @@ int main(int argc, char*argv[])
             cout << "   ** //**     \n";
             cout << "  **   //**    \n";
             cout << " //     //     \n";
-            value = (value + 24);
-            break;
+            return 24;
+            
         case 'Y':
             cout << "  **    **     \n";
             cout << " //**  **      \n";
@@ -297,8 +297,8 @@ int main(int argc, char*argv[])
             cout << "    /**        \n";
             cout << "    /**        \n";
             cout << "    //         \n";
-            value = (value + 25);
-            break;
+            return 25;
+            
         case 'Z':
             cout << "  ********     \n";
             cout << " //////**      \n";
@@ -308,8 +308,8 @@ int main(int argc, char*argv[])
             cout << "   **          \n";
             cout << "  ********     \n";
             cout << " ////////      \n";
-            value = (value + 26);
-            break;    
+            return 26;
+                
         default:
             cout << "    *******     ********  **     ** \n";
             cout << "   **/////**   **//////  /**    /** \n";
@@ -319,6 +319,7 @@ int main(int argc, char*argv[])
             cout << " //**     **         /** /**    /** \n";
             cout << "  //*******    ********  //*******  \n";
             cout << "   ///////    ////////    ///////   \n";
+            return 0;
     }
-    return value;
+    return 0;
 }
